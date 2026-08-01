@@ -644,14 +644,16 @@
     filter.frequency.value = 1100;
     filter.Q.value = 0.5;
     var rainGain = stormCtx.createGain();
-    rainGain.gain.value = 0.045;
+    rainGain.gain.value = 0.11;
     rainSource.connect(filter).connect(rainGain).connect(stormCtx.destination);
     rainSource.start();
     scheduleThunder();
   }
 
+  var firstThunder = true;
   function scheduleThunder(){
-    var delay = 9000 + Math.random() * 16000;
+    var delay = firstThunder ? (2500 + Math.random() * 2000) : (9000 + Math.random() * 16000);
+    firstThunder = false;
     thunderTimer = setTimeout(function(){
       playThunder();
       if(stormOn) scheduleThunder();
@@ -670,7 +672,7 @@
     lp.frequency.value = 220;
     var noiseGain = stormCtx.createGain();
     noiseGain.gain.setValueAtTime(0, now);
-    noiseGain.gain.linearRampToValueAtTime(0.3, now + 0.15);
+    noiseGain.gain.linearRampToValueAtTime(0.5, now + 0.15);
     noiseGain.gain.exponentialRampToValueAtTime(0.001, now + 2.2);
     src.connect(lp).connect(noiseGain).connect(stormCtx.destination);
     src.start();
@@ -681,7 +683,7 @@
     osc.frequency.value = 48;
     var oscGain = stormCtx.createGain();
     oscGain.gain.setValueAtTime(0, now);
-    oscGain.gain.linearRampToValueAtTime(0.22, now + 0.2);
+    oscGain.gain.linearRampToValueAtTime(0.35, now + 0.2);
     oscGain.gain.exponentialRampToValueAtTime(0.001, now + 2.0);
     osc.connect(oscGain).connect(stormCtx.destination);
     osc.start();
