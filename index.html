@@ -695,12 +695,12 @@
   </div>
   <div class="roster-grid">
     <div class="roster-item confirmed">OP!UM//J4CK* — Triston Barrientos</div>
-    <div class="roster-item confirmed">System Play Nick — Nick Lynch</div>
     <div class="roster-item spot-pending">Spot Pending — Andrew Soto</div>
     <div class="roster-item spot-pending">Spot Pending — Adam</div>
     <div class="roster-item spot-pending">Spot Pending — Damian Chavez</div>
     <div class="roster-item spot-pending">Spot Pending — Tyler Herron</div>
     <div class="roster-item spot-pending">Spot Pending — Issac</div>
+    <div class="roster-item pending">Awaiting Pact</div>
     <div class="roster-item pending">Awaiting Pact</div>
     <div class="roster-item pending">Awaiting Pact</div>
     <div class="roster-item pending">Awaiting Pact</div>
@@ -798,10 +798,9 @@
     }catch(e){}
   }
 
-  // ---- Rain + thunder ambience (synthesized, no audio file needed) ----
+  // ---- Thunder ambience (synthesized, no audio file needed) ----
   var stormOn = false;
   var stormCtx = null;
-  var rainSource = null;
   var thunderTimer = null;
 
   function makeNoiseBuffer(ctx, seconds){
@@ -814,18 +813,6 @@
 
   function startStorm(){
     stormCtx = stormCtx || new (window.AudioContext || window.webkitAudioContext)();
-    var noiseBuffer = makeNoiseBuffer(stormCtx, 4);
-    rainSource = stormCtx.createBufferSource();
-    rainSource.buffer = noiseBuffer;
-    rainSource.loop = true;
-    var filter = stormCtx.createBiquadFilter();
-    filter.type = 'bandpass';
-    filter.frequency.value = 1100;
-    filter.Q.value = 0.5;
-    var rainGain = stormCtx.createGain();
-    rainGain.gain.value = 0.0;
-    rainSource.connect(filter).connect(rainGain).connect(stormCtx.destination);
-    rainSource.start();
     scheduleThunder();
   }
 
@@ -883,7 +870,6 @@
   }
 
   function stopStorm(){
-    if(rainSource){ try{ rainSource.stop(); }catch(e){} rainSource = null; }
     if(thunderTimer){ clearTimeout(thunderTimer); thunderTimer = null; }
   }
 
