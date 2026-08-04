@@ -823,7 +823,7 @@
     filter.frequency.value = 1100;
     filter.Q.value = 0.5;
     var rainGain = stormCtx.createGain();
-    rainGain.gain.value = 0.11;
+    rainGain.gain.value = 0.0;
     rainSource.connect(filter).connect(rainGain).connect(stormCtx.destination);
     rainSource.start();
     scheduleThunder();
