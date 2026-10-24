@@ -16,6 +16,7 @@
   <style>
     :root { --bg:#0b0506; --blood:#c4161c; --ember:#ff463c; --bone:#eee4d6; --ash:#968a84; --line:#46181a; }
     * { box-sizing:border-box; }
+    html { background:var(--bg); }
     body { margin:0; background:radial-gradient(ellipse at top, #3a0709 0%, var(--bg) 55%) fixed;
            color:var(--bone); font-family:Oswald, sans-serif; font-weight:300; }
     main { max-width:760px; margin:0 auto; padding:40px 16px 64px; text-align:center; }
@@ -29,6 +30,24 @@
     .card img { width:100%; aspect-ratio:3/4; object-fit:cover; object-position:top; border:1px solid var(--line); display:block; margin-bottom:6px; }
     .card:hover span { color:var(--bone); }
     .home { display:inline-block; margin-top:48px; color:var(--ash); }
+    .sub { color:var(--ash); font-size:14px; margin:-8px 0 16px; }
+    .tbl { overflow-x:auto; border:1px solid var(--line); }
+    table { width:100%; border-collapse:collapse; font-size:16px; }
+    th { font-family:Cinzel, serif; color:var(--ember); font-size:12px; letter-spacing:.08em; padding:10px 6px; border-bottom:1px solid var(--line); white-space:nowrap; }
+    td { padding:9px 6px; font-variant-numeric:tabular-nums; color:var(--ash); white-space:nowrap; }
+    tbody tr:nth-child(odd) { background:#1a0a0b; }
+    .rk { color:var(--ash); width:28px; }
+    .tm { text-align:left; color:var(--bone); font-weight:500; white-space:normal; }
+    .rec { color:var(--bone); font-weight:500; }
+    .up { color:var(--ember); }
+    .down { color:#8fb3d9; }
+    .marks { display:grid; grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)); gap:12px; }
+    .mark { border:1px solid var(--line); background:#140708; padding:16px 12px; }
+    .ml { font-family:Cinzel, serif; color:var(--ember); font-size:12px; letter-spacing:.1em; text-transform:uppercase; }
+    .mv { font-size:34px; font-weight:500; color:var(--bone); margin:4px 0 0; }
+    .mt { color:var(--bone); font-size:18px; }
+    .mn { color:var(--ash); font-size:14px; }
+    @media (max-width:560px) { .wide { display:none; } table { font-size:15px; } }
   </style>
 </head>
 <body>
@@ -38,6 +57,199 @@
     <span class="tag">WEEK 6</span>
     <a href="week-6.png" target="_blank"><img class="latest" src="week-6.png" alt="Week 6 awards"></a>
 
+    <h2>Standings</h2>
+    <p class="sub">Weeks 1-6 &middot; All-Play = record vs. every team, every week &middot; Luck = actual wins minus all-play pace</p>
+    <div class="tbl">
+      <table>
+        <thead><tr><th></th><th class="tm">Team</th><th>W-L</th><th>PF</th><th class="wide">PA</th><th>All-Play</th><th>Luck</th><th class="wide">Strk</th></tr></thead>
+        <tbody>
+        <tr>
+          <td class="rk">1</td>
+          <td class="tm">Cakes</td>
+          <td class="rec">6-0</td>
+          <td>707.76</td>
+          <td class="wide">622.28</td>
+          <td>35-31</td>
+          <td class="up">+2.8</td>
+          <td class="wide">W6</td>
+        </tr>
+        <tr>
+          <td class="rk">2</td>
+          <td class="tm">Rocky mountain oysters</td>
+          <td class="rec">5-1</td>
+          <td>800.22</td>
+          <td class="wide">725.36</td>
+          <td>49-17</td>
+          <td class="up">+0.5</td>
+          <td class="wide">W4</td>
+        </tr>
+        <tr>
+          <td class="rk">3</td>
+          <td class="tm">BakeMaye</td>
+          <td class="rec">5-1</td>
+          <td>775.32</td>
+          <td class="wide">641.50</td>
+          <td>51-15</td>
+          <td class="up">+0.4</td>
+          <td class="wide">W3</td>
+        </tr>
+        <tr>
+          <td class="rk">4</td>
+          <td class="tm">Cactus Gooners</td>
+          <td class="rec">4-2</td>
+          <td>784.56</td>
+          <td class="wide">731.10</td>
+          <td>46-20</td>
+          <td class="down">-0.2</td>
+          <td class="wide">L2</td>
+        </tr>
+        <tr>
+          <td class="rk">5</td>
+          <td class="tm">Bevoburgers</td>
+          <td class="rec">3-3</td>
+          <td>749.78</td>
+          <td class="wide">699.26</td>
+          <td>46-20</td>
+          <td class="down">-1.2</td>
+          <td class="wide">L2</td>
+        </tr>
+        <tr>
+          <td class="rk">6</td>
+          <td class="tm">Big Texas</td>
+          <td class="rec">3-3</td>
+          <td>662.84</td>
+          <td class="wide">665.46</td>
+          <td>22-44</td>
+          <td class="up">+1.0</td>
+          <td class="wide">L3</td>
+        </tr>
+        <tr>
+          <td class="rk">7</td>
+          <td class="tm">Sketchy Mob</td>
+          <td class="rec">3-3</td>
+          <td>649.74</td>
+          <td class="wide">625.24</td>
+          <td>22-44</td>
+          <td class="up">+1.0</td>
+          <td class="wide">W1</td>
+        </tr>
+        <tr>
+          <td class="rk">8</td>
+          <td class="tm">Pigskin slingers</td>
+          <td class="rec">2-4</td>
+          <td>803.76</td>
+          <td class="wide">797.60</td>
+          <td>43-23</td>
+          <td class="down">-1.9</td>
+          <td class="wide">L1</td>
+        </tr>
+        <tr>
+          <td class="rk">9</td>
+          <td class="tm">OP!UM//J4CK*</td>
+          <td class="rec">2-4</td>
+          <td>676.96</td>
+          <td class="wide">722.48</td>
+          <td>31-35</td>
+          <td class="down">-0.8</td>
+          <td class="wide">W2</td>
+        </tr>
+        <tr>
+          <td class="rk">10</td>
+          <td class="tm">D4M€D0££A</td>
+          <td class="rec">1-5</td>
+          <td>594.60</td>
+          <td class="wide">748.36</td>
+          <td>16-50</td>
+          <td class="down">-0.5</td>
+          <td class="wide">L2</td>
+        </tr>
+        <tr>
+          <td class="rk">11</td>
+          <td class="tm">Air Raid Charles</td>
+          <td class="rec">1-5</td>
+          <td>591.72</td>
+          <td class="wide">660.48</td>
+          <td>17-49</td>
+          <td class="down">-0.5</td>
+          <td class="wide">L1</td>
+        </tr>
+        <tr>
+          <td class="rk">12</td>
+          <td class="tm">The Dark side</td>
+          <td class="rec">1-5</td>
+          <td>591.26</td>
+          <td class="wide">749.40</td>
+          <td>18-48</td>
+          <td class="down">-0.6</td>
+          <td class="wide">W1</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Coven Records</h2>
+    <div class="marks">
+      <div class="mark">
+        <div class="ml">Highest Score</div>
+        <div class="mv">184.34</div>
+        <div class="mt">Big Texas</div>
+        <div class="mn">Week 1 vs. Pigskin slingers</div>
+      </div>
+      <div class="mark">
+        <div class="ml">Lowest Score</div>
+        <div class="mv">57.28</div>
+        <div class="mt">The Dark side</div>
+        <div class="mn">Week 2 vs. Big Texas</div>
+      </div>
+      <div class="mark">
+        <div class="ml">Biggest Blowout</div>
+        <div class="mv">+72.24</div>
+        <div class="mt">Pigskin slingers</div>
+        <div class="mn">over D4M€D0££A, Week 5</div>
+      </div>
+      <div class="mark">
+        <div class="ml">Closest Game</div>
+        <div class="mv">+0.44</div>
+        <div class="mt">Air Raid Charles</div>
+        <div class="mn">over Bevoburgers, Week 5</div>
+      </div>
+      <div class="mark">
+        <div class="ml">Luckiest Win</div>
+        <div class="mv">89.76</div>
+        <div class="mt">Cakes</div>
+        <div class="mn">beat Sketchy Mob, Week 1</div>
+      </div>
+      <div class="mark">
+        <div class="ml">Most Robbed</div>
+        <div class="mv">143.30</div>
+        <div class="mt">Cactus Gooners</div>
+        <div class="mn">lost to Rocky mountain oysters, Week 5</div>
+      </div>
+    </div>
+
+    <h2>The Ledger</h2>
+    <div class="grid">
+      <a class="card" href="week-5.png" target="_blank">
+        <img src="week-5.png" alt="Week 5" loading="lazy">
+        <span>Week 5</span>
+      </a>
+      <a class="card" href="week-4.png" target="_blank">
+        <img src="week-4.png" alt="Week 4" loading="lazy">
+        <span>Week 4</span>
+      </a>
+      <a class="card" href="week-3.png" target="_blank">
+        <img src="week-3.png" alt="Week 3" loading="lazy">
+        <span>Week 3</span>
+      </a>
+      <a class="card" href="week-2.png" target="_blank">
+        <img src="week-2.png" alt="Week 2" loading="lazy">
+        <span>Week 2</span>
+      </a>
+      <a class="card" href="week-1.png" target="_blank">
+        <img src="week-1.png" alt="Week 1" loading="lazy">
+        <span>Week 1</span>
+      </a>
+    </div>
     <a class="home" href="/">&larr; Back to the Coven</a>
   </main>
 </body>

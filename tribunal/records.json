@@ -1,0 +1,151 @@
+{
+  "span": "Weeks 1-6",
+  "standings": [
+    {
+      "team": "Cakes",
+      "record": "6-0",
+      "pf": "707.76",
+      "pa": "622.28",
+      "all_play": "35-31",
+      "luck": "+2.8",
+      "streak": "W6"
+    },
+    {
+      "team": "Rocky mountain oysters",
+      "record": "5-1",
+      "pf": "800.22",
+      "pa": "725.36",
+      "all_play": "49-17",
+      "luck": "+0.5",
+      "streak": "W4"
+    },
+    {
+      "team": "BakeMaye",
+      "record": "5-1",
+      "pf": "775.32",
+      "pa": "641.50",
+      "all_play": "51-15",
+      "luck": "+0.4",
+      "streak": "W3"
+    },
+    {
+      "team": "Cactus Gooners",
+      "record": "4-2",
+      "pf": "784.56",
+      "pa": "731.10",
+      "all_play": "46-20",
+      "luck": "-0.2",
+      "streak": "L2"
+    },
+    {
+      "team": "Bevoburgers",
+      "record": "3-3",
+      "pf": "749.78",
+      "pa": "699.26",
+      "all_play": "46-20",
+      "luck": "-1.2",
+      "streak": "L2"
+    },
+    {
+      "team": "Big Texas",
+      "record": "3-3",
+      "pf": "662.84",
+      "pa": "665.46",
+      "all_play": "22-44",
+      "luck": "+1.0",
+      "streak": "L3"
+    },
+    {
+      "team": "Sketchy Mob",
+      "record": "3-3",
+      "pf": "649.74",
+      "pa": "625.24",
+      "all_play": "22-44",
+      "luck": "+1.0",
+      "streak": "W1"
+    },
+    {
+      "team": "Pigskin slingers",
+      "record": "2-4",
+      "pf": "803.76",
+      "pa": "797.60",
+      "all_play": "43-23",
+      "luck": "-1.9",
+      "streak": "L1"
+    },
+    {
+      "team": "OP!UM//J4CK*",
+      "record": "2-4",
+      "pf": "676.96",
+      "pa": "722.48",
+      "all_play": "31-35",
+      "luck": "-0.8",
+      "streak": "W2"
+    },
+    {
+      "team": "D4M€D0££A",
+      "record": "1-5",
+      "pf": "594.60",
+      "pa": "748.36",
+      "all_play": "16-50",
+      "luck": "-0.5",
+      "streak": "L2"
+    },
+    {
+      "team": "Air Raid Charles",
+      "record": "1-5",
+      "pf": "591.72",
+      "pa": "660.48",
+      "all_play": "17-49",
+      "luck": "-0.5",
+      "streak": "L1"
+    },
+    {
+      "team": "The Dark side",
+      "record": "1-5",
+      "pf": "591.26",
+      "pa": "749.40",
+      "all_play": "18-48",
+      "luck": "-0.6",
+      "streak": "W1"
+    }
+  ],
+  "marks": [
+    {
+      "label": "Highest Score",
+      "team": "Big Texas",
+      "value": "184.34",
+      "note": "Week 1 vs. Pigskin slingers"
+    },
+    {
+      "label": "Lowest Score",
+      "team": "The Dark side",
+      "value": "57.28",
+      "note": "Week 2 vs. Big Texas"
+    },
+    {
+      "label": "Biggest Blowout",
+      "team": "Pigskin slingers",
+      "value": "+72.24",
+      "note": "over D4M€D0££A, Week 5"
+    },
+    {
+      "label": "Closest Game",
+      "team": "Air Raid Charles",
+      "value": "+0.44",
+      "note": "over Bevoburgers, Week 5"
+    },
+    {
+      "label": "Luckiest Win",
+      "team": "Cakes",
+      "value": "89.76",
+      "note": "beat Sketchy Mob, Week 1"
+    },
+    {
+      "label": "Most Robbed",
+      "team": "Cactus Gooners",
+      "value": "143.30",
+      "note": "lost to Rocky mountain oysters, Week 5"
+    }
+  ]
+}
