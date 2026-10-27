@@ -1,113 +1,113 @@
 {
-  "span": "Weeks 1-6",
+  "span": "Weeks 1-7",
   "standings": [
     {
-      "team": "Cakes",
-      "record": "6-0",
-      "pf": "707.76",
-      "pa": "622.28",
-      "all_play": "35-31",
-      "luck": "+2.8",
-      "streak": "W6"
-    },
-    {
       "team": "Rocky mountain oysters",
-      "record": "5-1",
-      "pf": "800.22",
-      "pa": "725.36",
-      "all_play": "49-17",
-      "luck": "+0.5",
-      "streak": "W4"
+      "record": "6-1",
+      "pf": "912.02",
+      "pa": "832.18",
+      "all_play": "57-20",
+      "luck": "+0.8",
+      "streak": "W5"
     },
     {
       "team": "BakeMaye",
-      "record": "5-1",
-      "pf": "775.32",
-      "pa": "641.50",
-      "all_play": "51-15",
+      "record": "6-1",
+      "pf": "905.16",
+      "pa": "751.52",
+      "all_play": "62-15",
       "luck": "+0.4",
-      "streak": "W3"
+      "streak": "W4"
+    },
+    {
+      "team": "Cakes",
+      "record": "6-1",
+      "pf": "814.58",
+      "pa": "734.08",
+      "all_play": "38-39",
+      "luck": "+2.5",
+      "streak": "L1"
     },
     {
       "team": "Cactus Gooners",
-      "record": "4-2",
-      "pf": "784.56",
-      "pa": "731.10",
-      "all_play": "46-20",
-      "luck": "-0.2",
-      "streak": "L2"
-    },
-    {
-      "team": "Bevoburgers",
-      "record": "3-3",
-      "pf": "749.78",
-      "pa": "699.26",
-      "all_play": "46-20",
-      "luck": "-1.2",
-      "streak": "L2"
-    },
-    {
-      "team": "Big Texas",
-      "record": "3-3",
-      "pf": "662.84",
-      "pa": "665.46",
-      "all_play": "22-44",
-      "luck": "+1.0",
-      "streak": "L3"
-    },
-    {
-      "team": "Sketchy Mob",
-      "record": "3-3",
-      "pf": "649.74",
-      "pa": "625.24",
-      "all_play": "22-44",
-      "luck": "+1.0",
+      "record": "5-2",
+      "pf": "900.18",
+      "pa": "807.32",
+      "all_play": "55-22",
+      "luck": "+0.0",
       "streak": "W1"
     },
     {
       "team": "Pigskin slingers",
-      "record": "2-4",
-      "pf": "803.76",
-      "pa": "797.60",
-      "all_play": "43-23",
-      "luck": "-1.9",
+      "record": "3-4",
+      "pf": "927.36",
+      "pa": "906.66",
+      "all_play": "53-24",
+      "luck": "-1.8",
+      "streak": "W1"
+    },
+    {
+      "team": "Bevoburgers",
+      "record": "3-4",
+      "pf": "859.80",
+      "pa": "829.10",
+      "all_play": "51-26",
+      "luck": "-1.6",
+      "streak": "L3"
+    },
+    {
+      "team": "Sketchy Mob",
+      "record": "3-4",
+      "pf": "758.80",
+      "pa": "748.84",
+      "all_play": "26-51",
+      "luck": "+0.6",
       "streak": "L1"
     },
     {
+      "team": "Big Texas",
+      "record": "3-4",
+      "pf": "739.06",
+      "pa": "781.08",
+      "all_play": "22-55",
+      "luck": "+1.0",
+      "streak": "L4"
+    },
+    {
       "team": "OP!UM//J4CK*",
-      "record": "2-4",
-      "pf": "676.96",
-      "pa": "722.48",
-      "all_play": "31-35",
-      "luck": "-0.8",
+      "record": "2-5",
+      "pf": "782.34",
+      "pa": "833.90",
+      "all_play": "32-45",
+      "luck": "-0.9",
+      "streak": "L1"
+    },
+    {
+      "team": "Air Raid Charles",
+      "record": "2-5",
+      "pf": "703.00",
+      "pa": "766.60",
+      "all_play": "23-54",
+      "luck": "-0.1",
+      "streak": "W1"
+    },
+    {
+      "team": "The Dark side",
+      "record": "2-5",
+      "pf": "702.68",
+      "pa": "854.78",
+      "all_play": "25-52",
+      "luck": "-0.3",
       "streak": "W2"
     },
     {
       "team": "D4M€D0££A",
-      "record": "1-5",
-      "pf": "594.60",
-      "pa": "748.36",
-      "all_play": "16-50",
-      "luck": "-0.5",
-      "streak": "L2"
-    },
-    {
-      "team": "Air Raid Charles",
-      "record": "1-5",
-      "pf": "591.72",
-      "pa": "660.48",
-      "all_play": "17-49",
-      "luck": "-0.5",
-      "streak": "L1"
-    },
-    {
-      "team": "The Dark side",
-      "record": "1-5",
-      "pf": "591.26",
-      "pa": "749.40",
-      "all_play": "18-48",
+      "record": "1-6",
+      "pf": "700.72",
+      "pa": "859.64",
+      "all_play": "18-59",
       "luck": "-0.6",
-      "streak": "W1"
+      "streak": "L3"
     }
   ],
   "marks": [
